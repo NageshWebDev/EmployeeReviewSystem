@@ -1,0 +1,29 @@
+.homePageImg{
+    animation: upDown 2s linear infinite alternate;
+}
+
+.homePageSection{
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: center;
+}
+
+.homePageDiv{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: center;
+}
+
+.homePageDiv > div{
+    display: flex;
+    flex-direction: column; 
+}
+
+@keyframes upDown {
+    0% {transform: translateY(-10px);}
+    100% {transform: translateY(10px);}
+}
